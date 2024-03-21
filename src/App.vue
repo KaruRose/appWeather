@@ -6,13 +6,13 @@ import CardClima from "./components/CardClima.vue";
   <div
     class="hero min-h-screen"
     style="
-      background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);
+      background-image: url(https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148639325.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1710979200&semt=ais);
     "
   >
-    <div class="hero-overlay bg-opacity-60"></div>
+    <div class="hero-overlay bg-opacity-20"></div>
     <div class="hero-content text-center text-neutral-content">
-      <div class="max-w-md">
-        <h1 class="mb-5 text-5xl font-bold">
+      <div >
+        <h1 class="mb-5 font-bold">
           <CardClima />
         </h1>
       </div>
