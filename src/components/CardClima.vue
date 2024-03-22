@@ -78,8 +78,23 @@ window.addEventListener("load", () => {
 
           let caseData = data.weather[0].main;
           console.log(caseData)
+          if (caseData === "Clear") {
+            weatherIcon.value.src = "/appWeather/animated_icons/day.svg";
+            console.log(weatherIcon.value.src);
+          }
+
           if (caseData === "Clouds") {
-            weatherIcon.value.src = "/animated_icons/day.svg";
+            weatherIcon.value.src = "/appWeather/animated_icons/cloudy-day-2.svg";
+            console.log(weatherIcon.value.src);
+          }
+
+          if (caseData === "Rain") {
+            weatherIcon.value.src = "/appWeather/animated_icons/rainy-2.svg";
+            console.log(weatherIcon.value.src);
+          }
+
+          if (caseData === "Thunderstorm") {
+            weatherIcon.value.src = "/appWeather/animated_icons/thunder.svg";
             console.log(weatherIcon.value.src);
           }
         })
